@@ -23,5 +23,6 @@ For best results, install Ubuntu Linux natively on your machine. You can either:
 
 ---
 
-Next: [Hardware Setup ➡️](#hardware-setup)
+If you are setting up the blueROV on your laptop for the first time, visit
+[first time setup](setup/README.md)
 
