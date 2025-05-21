@@ -33,3 +33,4 @@ Enter the URL: udp://@192.168.3.10:5600.
 
 If the stream is being sent correctly, VLC should display the video.
 
+2. wait_ready = False
