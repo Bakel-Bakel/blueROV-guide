@@ -10,5 +10,19 @@
 
 sudo apt install net-tools
 
-![alt text](image.png)
+![alt text](assets/img/image.png)
 
+enx00e04c3600f3 – This looks like your USB-to-Ethernet adapter (likely the BlueROV tether interface), but it has no IP address and no data traffic (RX 0, TX 0).
+
+1. Set a Static IP Manually
+The BlueROV companion computer expects your PC to be at 192.168.2.1.
+
+Run the following command in your terminal:
+
+
+sudo ip addr add 192.168.2.1/24 dev enx00e04c3600f3
+
+ping 192.168.2.2
+
+
+RED light on the raspberry pi indicates insufficient power to the ROV. You could try turning off and on the ROV or charging/replacing the battery.
