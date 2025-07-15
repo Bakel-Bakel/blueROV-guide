@@ -1,0 +1,10 @@
+# Ignore Sphinx build output
+docs/_build/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
