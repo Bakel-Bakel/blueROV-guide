@@ -2,6 +2,8 @@
    sphinx-quickstart on Tue Jul 15 01:25:41 2025.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
+.. toctree::
+   :maxdepth: 1
 
 BlueROV Guide
 ===========================
@@ -35,8 +37,13 @@ BlueROV’s software stack relies on direct hardware access and reliable network
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
  
    :caption: Contents:
-
+   first-time-setup
+   tests
+   demo
+   
+   
+  

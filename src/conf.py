@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'BlueROV Guide'
-copyright = '2025, Francisco Javier Bellas Bouza, Félix Orjales Saavedra, Bakel Bakel, GII'
-author = 'Francisco Javier Bellas Bouza, Félix Orjales Saavedra, Bakel Bakel, GII'
+copyright = '2025, Francisco Bellas, Félix Orjales Saavedra, Bakel Bakel, GII'
+author = 'Francisco Bellas, Félix Orjales Saavedra, Bakel Bakel, GII'
 release = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
