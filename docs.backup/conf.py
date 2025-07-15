@@ -26,3 +26,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+
+html_baseurl = 'https://bakel-bakel.github.io/blueROV-guide/'
+
+html_theme_options = {
+    'navigation_with_keys': True  # optional
+}
+
